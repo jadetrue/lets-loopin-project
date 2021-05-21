@@ -1,0 +1,35 @@
+// Variables, resets, mixins, and other similar styles
+
+// Font
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+// colour palette / branding
+
+$happyColour: rgb(26, 225, 184);
+$okayColour: rgb(234, 190, 5);
+$sadColour: rgb(250, 82, 82);
+
+$primaryColour: #484f56;
+$secondaryColour: #1a1500;
+
+// resets 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gochi Hand', cursive;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+// Mixins
+
+@mixin desktop-up {
+    @media (min-width: 1200px) {@content;}
+}
+
+@mixin tablet-up {
+    @media (min-width: 768px) {@content;}
+}

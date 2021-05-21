@@ -1,0 +1,56 @@
+// Styles for the header, footer, the grid system, etc
+
+.container {
+    color: $primaryColour;
+
+    @include desktop-up {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            ". top"
+            "bottom .";
+        gap: 20px;
+    }
+}
+
+.currentDate {
+     text-align: right;
+     font-size: 30px;
+     margin-bottom: 10%;
+
+     @include tablet-up {
+        grid-area: top;
+     }
+
+     & .date {
+        font-style: italic;
+     }
+
+    & .happy, .okay {
+        background-color: transparent;
+    }
+
+     & .sad {
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    & .happy, .okay {
+        background-color: transparent;
+    }
+
+    & .sad {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    @include tablet-up {
+        grid-area: bottom;
+    }
+}

@@ -1,0 +1,72 @@
+// Everything that is reusable!
+
+.card {
+    border: $primaryColour 1px solid;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 5%;
+
+    @include tablet-up {
+        width: 50vw;
+        margin: 0 auto;
+        background-image: url(../background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.happy {
+    background-color: $happyColour;
+}
+
+.okay {
+    background-color: $okayColour;
+}
+
+.sad {
+    background-color: $sadColour;
+    color: #fff;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+   
+    @include desktop-up {
+        display: flex;
+        justify-content: space-evenly;  
+        flex-direction: row;
+    }
+
+    &--mood {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        border: solid 1px $primaryColour;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+
+            @include desktop-up {
+                margin: 10px;
+
+                &:hover { 
+                    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+                    cursor: pointer;
+                }
+            }
+
+    }
+
+    &--happy {
+        background-color: $happyColour;
+    }
+
+    &--okay {
+        background-color: $okayColour;
+    }
+
+    &--sad {
+        background-color: $sadColour;
+    }
+}

@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Loopin Mood Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Acceptance Criteria
 
-## Available Scripts
+- [ ] A React component that takes a prop of `mood` that takes four values; `"happy" | "neutral" | "sad" | undefined`
+- [ ] The component renders one of the four states listed above depending on the value of that prop
+- [ ] Can I click a button to submit my mood if I haven't submitted my mood yet?
+- [ ] The component also takes a prop of `date` and displays that back to the user
+- [ ] Do we have a suite of [test](https://testing-library.com/docs/react-testing-library/intro/) or [stories](https://storybook.js.org/) for each component used?
+- [ ] Is the code repository available to download on Github?
+- [ ] **Stretch goal**: How will this look and work on mobile?
+- [ ] **Stretch goal**:
+      Add an animation to the component to make it pop; maybe the text bounces or slowly gains opacity on its first render.
+- [ ] **Stretch goal**:
+      Are there any other features you'd like to see in a daily mood tracker? You don't have to actually built them, but understanding your ideas would great - add comments in the code to explain future ideas
 
-In the project directory, you can run:
+## Built with
 
-### `yarn start`
+- CSS (Sass & BEM)
+- Flexbox
+- CSS Grid
+- React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What I have learnt & would like to improve
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- I've revisted React and loved working with props to set the mood.
+- I would like to change the 'btn' block to be a component in itself to be reused elsewhere if needed.
+- Also to be able to chain this up so the buttons do not display if the mood isn't selected.
+- Found some fancy border styles online! Ref: https://codepen.io/tmrDevelops/pen/VeRvKX.
+- I would have liked to have changed the date to a prop, and had a completed test case using it this way.
+- I would have liked to have been able to render the component with both props.
 
-### `yarn test`
+## Author
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub - [@jadetruexo](https://github.com/jadetruexo/)
