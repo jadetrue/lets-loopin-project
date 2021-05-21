@@ -1,6 +1,7 @@
 # Loopin Mood Card
 
 ![Mood Card](https://github.com/jadetruexo/lets-loopin-project/blob/main/src/mood.jpg?raw=true)
+![Mood Card Mobile](https://github.com/jadetruexo/lets-loopin-project/blob/main/src/mobile-mood.jpg?raw=true)
 
 # Acceptance Criteria
 
