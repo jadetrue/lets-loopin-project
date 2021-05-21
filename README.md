@@ -1,5 +1,7 @@
 # Loopin Mood Card
 
+![Mood Card](https://github.com/jadetruexo/lets-loopin-project/blob/main/mood.jpg?raw=true)
+
 # Acceptance Criteria
 
 - [ ] A React component that takes a prop of `mood` that takes four values; `"happy" | "neutral" | "sad" | undefined`
